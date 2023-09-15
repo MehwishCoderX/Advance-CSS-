@@ -1,0 +1,128 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+header{
+    background-color:rgb(140, 137, 132);
+    text-align: center;
+    padding: 6px;
+}
+ul,a{
+    display: flex;
+    text-decoration: none;
+    padding-top: 10px;
+    
+}
+nav,li{
+    width: 100%;
+    display: flex;
+    background-color:wheat;
+
+    /* background-color: bisque;
+   */
+  
+}
+a{
+    padding-right: 20px;
+    font-weight: bold;
+ font-size: 20px;
+ color: brown;
+   
+}
+
+.logo{
+    
+    width: 110px;
+    
+}
+.bar
+{
+    
+    padding-top: 30px;
+    display: flex;
+   margin-left: 300px;  
+}
+.btn
+{
+    padding-top: 20px;
+    margin-left: 120px; 
+}
+button
+{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: white;
+  color: beige;
+    background-color: transparent;
+    
+}
+.kofee
+
+{
+    width: 300px;
+
+}
+section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 150px;
+    /* background-color: black; */
+    color: azure;
+   background-image: url('back.png');
+   background-repeat: no-repeat; 
+  background-size: cover; 
+    
+}
+article p:first-child {
+    font-size: 170%;
+    font-weight: bold;
+    padding: 25px 50px 15px 100px
+} 
+.btn2
+{
+    
+padding: 70px 20px 20px 150px;
+color: beige;
+
+    
+}
+.contactus{
+    background-color: rgb(219, 168, 105) !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 150px;
+    /* background-color: black; */
+    color:black;
+
+}
+input{
+    width: 100%;
+    border: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+  }
+  
+  input:focus {
+    background-color: lightblue;
+  }
+  .gallery
+  {
+    padding-top: 30px;
+    text-align: center;
+   
+    
+  }
+  footer{
+    background-color: #555;
+    text-align: center;
+    color: white;
+  }
