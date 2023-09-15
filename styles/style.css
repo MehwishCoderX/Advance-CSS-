@@ -29,6 +29,10 @@ a{
  color: brown;
    
 }
+a:hover{
+    color: Black;
+    text-decoration: underline;
+}
 
 .logo{
     
@@ -112,7 +116,7 @@ input{
   }
   
   input:focus {
-    background-color: lightblue;
+    background-color: burlywood;
   }
   .gallery
   {
@@ -125,4 +129,8 @@ input{
     background-color: #555;
     text-align: center;
     color: white;
+  }
+  button:hover{
+    background-color:burlywood;
+
   }
